@@ -1,6 +1,12 @@
 # Test Flow
 
+2019年02月26日11:53:14
+
+## develop
+
 - develop changed  2019年02月26日10:51:22
+
+## develop fork --> feat --> develop
 
 - feat-1 added 2019年02月26日10:53:35
 
@@ -27,6 +33,11 @@
 	```
 
 - feat-2 added 2019年02月26日11:03:00
-  - 执行 git flow finish,合并此分支至develop成功后自动删除此分支；
+  - 执行 git flow finish,合并此分支至develop成功后自动删除此分支(本地及远程)；
 
 - feat-3 added 2019年02月26日11:05:42
+
+## develop fork --> release --> develop & master
+
+- release-2 added 2019年02月26日11:55:57
+  - release finish时，会自动合并到develop及master分支；
