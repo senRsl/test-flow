@@ -50,3 +50,7 @@
 ## master fork --> hotfix --> develop & master
 
 - hotfix-1 added 2019年02月26日12:17:05
+  -hotfix finish 时：
+    - 会自动合并到develop及master分支(本地及远程)；
+    - 合并成功后会自动删除自分支(本地及远程);
+    - 会自动打tag;
