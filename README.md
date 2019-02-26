@@ -6,9 +6,9 @@
 
 - feat -1 finished 2019年02月26日10:57:42
 
- - 拉取feat-1之后，修改了develop，此时 feat-1 执行flow finish时会合并冲突，手动修复冲突后，feat-1依然保留。
+  - 拉取feat-1之后，修改了develop，此时 feat-1 执行flow finish时会合并冲突，手动修复冲突后，feat-1依然保留。
 
- - 手动删除feat-1，提示无法删除远端，是因为github default branch 设置为了feat1,更改为其他分支可删；
+  - 手动删除feat-1，提示无法删除远端，是因为github default branch 设置为了feat1,更改为其他分支可删；
 
 	```shell
 	SENRSL:test-flow senrsl$ git branch -a
@@ -31,6 +31,6 @@
 	```
 
 - feat-2 added 2019年02月26日11:03:00
- - 执行 git flow finish,合并此分支至develop成功后自动删除此分支；
+  - 执行 git flow finish,合并此分支至develop成功后自动删除此分支；
 
 - feat-3 added 2019年02月26日11:05:42
