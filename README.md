@@ -17,10 +17,6 @@
 	  master
 	  remotes/origin/develop
 	  remotes/origin/feature/Feature-1
-	SENRSL:test-flow senrsl$ git branch
-	* develop
-	  feature/Feature-1
-	  master
 	SENRSL:test-flow senrsl$ git branch -D feature/Feature-1
 	Deleted branch feature/Feature-1 (was c9cf91a).
 	SENRSL:test-flow senrsl$ git push origin --delete feature/Feature-1
