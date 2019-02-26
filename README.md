@@ -40,4 +40,9 @@
 ## develop fork --> release --> develop & master
 
 - release-2 added 2019年02月26日11:55:57
-  - release finish时，会自动合并到develop及master分支；
+  - release finish时:
+    - 会自动合并到develop及master分支；
+    - 合并成功后会自动删除自分支(本地及远程);
+    - 会自动打tag; 
+
+ 
