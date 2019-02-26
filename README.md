@@ -46,3 +46,7 @@
     - 会自动打tag; 
 
 - release-3 added 2019年02月26日12:10:20 
+
+## master fork --> hotfix --> develop & master
+
+- hotfix-1 added 2019年02月26日12:17:05
